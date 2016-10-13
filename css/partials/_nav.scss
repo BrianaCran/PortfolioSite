@@ -1,0 +1,81 @@
+.nav{
+      background-color: black;
+      border-bottom: 2px solid $blue;
+      padding-top: 7px;
+      position: fixed;
+      width: 100%;
+      z-index: 80;
+
+    ul{
+       list-style-type: none;
+       float: left;
+       padding: 0;
+       li{
+          display: inline-block;
+
+          a{
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px;
+            color: $blue;
+          }
+          a:visited{
+                   color: gray;
+          }
+          a:hover{
+                  color: white;
+          }
+       }
+    }
+
+   .fa-envelope{
+                cursor: pointer;
+   }
+    .icons{
+           float: right;
+          .fa{
+              font-size: 30px;
+              padding: 0px 5px;
+              color: $blue;
+          }
+          .fa:hover{
+                    color: white;
+          }
+        }
+
+
+        .drop{
+              display: none;
+              position: absolute;
+              background: black;
+              top: 65px;
+              left: 0px;
+              z-index: 50;
+
+              li{
+                display:block;
+                 color: white;
+                 padding: 5px 10px 10px 15px;
+              }
+              .jump{
+                    cursor: pointer;
+                    color: $blue;
+              }
+              .jump:hover{
+                          color:white;
+              }
+        }
+        .jump{
+              cursor: pointer;
+              color: $blue;
+              p{
+                font-size: 20px;
+                padding-left: 10px;
+              }
+        }
+        .jump:hover{
+                    color:white;
+        }
+
+}

@@ -1,0 +1,172 @@
+@media (max-width: 500px){
+
+         .nav{
+              .drop{
+                    top: 121px;
+                    left: -48px;
+                   }
+            }
+}
+
+@media (max-width: 767px){
+      .nav{
+           padding: 5px 15% 0 12%;
+
+           .icons{
+                  padding-right: 5%;
+                 }
+           .drop{
+                 display: none;
+                 position: absolute;
+                 z-index: 60;
+
+                 li{
+                    font-size: 18px;
+                    width: 400px;
+                   }
+                  }
+          }
+          .header{
+                  padding-top: 100px;
+                  h1{
+                     font-size: 50px;
+                     }
+                   .me{
+                       width: 70%;
+                       left: 15%;
+                   }
+                  p{
+                    width: 100%;
+                    padding-bottom: 50px;
+                    left: 10%;
+                  }
+                 }
+          .content{
+                   padding-left: 5%;
+
+                   .hleft{
+                          padding-left: 0%;
+                          text-align: center;
+                          }
+                   .specialh{
+                             position: relative;
+                             left: 0px;
+                            }
+                   .hleftspecial{
+                                 text-align: center;
+                                 padding-left: 0px;
+                                }
+                   .hright {
+                            padding-left: 0%;
+                           }
+                   .circle{
+                           width: 100%;
+                           border-radius: 100%;
+                          }
+                     .first,.second,
+                     .third,.fourth{
+                                    left: 0;
+                                    }
+                  }
+           .about{
+                   p{
+                     padding: 30px 5px 20px 10px;
+                     width: 100%;
+                     }
+                  }
+          .footer{
+                  form{
+                       padding-bottom: 20px;
+                       }
+                 }
+
+}
+
+@media (min-width: 780px) and (max-width: 1000px){
+    .nav{
+         .icons{
+                padding-right: 5%;
+               }
+         .drop{
+               display: none;
+               position: absolute;
+               right: 0;
+
+             li{
+                font-size: 18px;
+                width: 400px;
+               }
+
+              }
+         }
+  .header{
+          padding: 100px 0 0 0%;
+          h1{
+             font-size: 50px;
+            }
+        .me{
+            width: 30%;
+            left: 35%;
+            }
+          p{
+            width: 50%;
+            padding-bottom: 60px;
+            left: 30%;
+          }
+          ul,a{
+             padding-left: 38%;
+          }
+        }
+
+  .content{
+           padding-left: 5%;
+           h2{
+              text-align: center;
+
+           }
+           .hleft{
+                  padding-left: 0%;
+                  text-align: center;
+           }
+           .specialh{
+                     position: relative;
+                     left: 0px;
+           }
+           .hleftspecial{
+                         text-align: center;
+                         padding-left: 0px;
+
+           }
+           .hright {
+                    padding-left: 0%;
+           }
+           .circle{
+                   height: 400px;
+                   width: 50%;
+                   border-radius: 100%;
+
+             }
+             .first,.second,
+             .third,.fourth{
+                            left: 25%;
+                            }
+             }
+      .about{
+             h2{
+                text-align: left;
+               }
+             p{
+               width: 100%;
+               padding-left: 1%;
+               }
+            }
+    .footer{
+            padding: 5px 0 10% 10%;
+
+                     form{
+                          padding-bottom: 20px;
+
+                         }
+           }
+
+}

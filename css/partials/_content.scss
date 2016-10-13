@@ -1,0 +1,77 @@
+.content{
+         background: $blue;
+         padding-bottom: 30px;
+
+         h2{
+            text-align: center;
+         }
+         .biggerH{
+                  font-size: 40px;
+         }
+         .hleft{
+                padding-left: 5%;
+                text-align: left;
+         }
+         .specialh{
+                   position: relative;
+                   left: 30px;
+         }
+         .hleftspecial{
+                       text-align: left;
+                       padding-left: 45px;
+
+         }
+         .hright {
+                  padding-left: 40%;
+         }
+         .set2{
+               padding-top: 5%;
+         }
+         .circle{
+                           height: 320px;
+                           width: 100%;
+                           border-radius: 100%;
+                           position: relative;
+
+                           a{
+                             text-decoration: none;
+                           }
+
+           }
+           .first{
+                  background: url('../images/pftgBG.png')no-repeat top;
+                  background-size: cover;
+                  left: -15%;
+                  }
+          .second{
+                  background: url('../images/desktopscoundrels.png')no-repeat top;
+                  background-size: cover;
+                  left: 15%;
+                 }
+          .third{
+                 background: url('../images/goodreads.png')  no-repeat top;
+                 background-size: cover;
+                 left: -15%;
+                }
+          .fourth{
+                  background: url('../images/branchless.png')  no-repeat top;
+                  background-size: cover;
+                  left: 15%;
+                 }
+
+           .first:hover,.second:hover,
+           .third:hover,.fourth:hover{
+                                      opacity: .4;
+                                      }
+}
+.about{
+       p{
+         width: 80%;
+         padding: 40px 0 20px 20%;
+         font-size: 20px;
+       }
+       h2{
+          text-align: left;
+          color: white;
+       }
+}
